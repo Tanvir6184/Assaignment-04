@@ -1,3 +1,5 @@
+// Problem - 01
+
 function calculateTax(income, expenses) {
     if( income < 0 || expenses < 0 || income < expenses){
         return 'Invalid Input';
@@ -9,7 +11,7 @@ function calculateTax(income, expenses) {
 }
 
 
-
+// Problem - 02
 
 function sendNotification(email){
     if(email.includes('@') === true){
@@ -25,7 +27,7 @@ function sendNotification(email){
 
 
 
-
+// Problem - 03
 
 function checkDigitsInName(name) {
    if (typeof name !== 'string') {
@@ -41,7 +43,7 @@ function checkDigitsInName(name) {
 
 
 
-
+// Problem - 04
 
 function calculateFinalScore(obj){
    if( typeof obj !== 'object'){
@@ -63,7 +65,7 @@ function calculateFinalScore(obj){
 
 
 
-
+// Problem - 05
 
 function  waitingTime(waitingTimes  , serialNumber) {
     
